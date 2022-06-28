@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bhuvaneswar</groupId>
+  <artifactId>project-1</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>project-1 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+	<sonar.host.url>http://52.66.203.48:9000/</sonar.host.url>
+	<sonar.login>92df6106d17c6504d5d3a221119f951a0d032f71</sonar.login>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>project-1</finalName>
+  </build>
+</project>
